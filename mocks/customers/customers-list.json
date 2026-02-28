@@ -1,0 +1,109 @@
+{
+  "filters": {
+    "keyword": "",
+    "segment": "ALL"
+  },
+  "summary": {
+    "total_customers": 8,
+    "active_members": 3,
+    "vip_customers": 2
+  },
+  "customers": [
+    {
+      "id": 1,
+      "full_name": "Test Customer",
+      "phone": "0999888777",
+      "email": "test.customer@example.com",
+      "gender": "OTHER",
+      "note": "Khach moi",
+      "tags": ["THUONG"],
+      "booking_count": 0,
+      "loyalty_points": 0,
+      "balance_due": 0,
+      "membership": null,
+      "last_booking_at": null,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "full_name": "Nguyen Thanh Long",
+      "phone": "0901000111",
+      "email": "long.nt@example.com",
+      "gender": "MALE",
+      "note": "Thich dat san toi",
+      "tags": ["VIP"],
+      "booking_count": 24,
+      "loyalty_points": 185,
+      "balance_due": 150000,
+      "membership": {
+        "plan_name": "Thang VIP",
+        "plan_type": "MONTHLY",
+        "status": "ACTIVE",
+        "remaining_hours": null,
+        "remaining_visits": null,
+        "end_date": "2026-03-20"
+      },
+      "last_booking_at": "2026-02-25T19:00:00+07:00",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 3,
+      "full_name": "Tran Minh Chau",
+      "phone": "0902000333",
+      "email": null,
+      "gender": "FEMALE",
+      "note": null,
+      "tags": ["THANH_VIEN"],
+      "booking_count": 12,
+      "loyalty_points": 72,
+      "balance_due": 0,
+      "membership": {
+        "plan_name": "Goi 10 gio",
+        "plan_type": "HOUR_PACKAGE",
+        "status": "ACTIVE",
+        "remaining_hours": 3.5,
+        "remaining_visits": null,
+        "end_date": null
+      },
+      "last_booking_at": "2026-02-24T18:30:00+07:00",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 4,
+      "full_name": "Pham Gia Bao",
+      "phone": "0903000444",
+      "email": "bao.pg@example.com",
+      "gender": "MALE",
+      "note": "No-show 1 lan",
+      "tags": ["THUONG"],
+      "booking_count": 6,
+      "loyalty_points": 20,
+      "balance_due": 80000,
+      "membership": null,
+      "last_booking_at": "2026-02-22T20:00:00+07:00",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 5,
+      "full_name": "Le Hoang Nhi",
+      "phone": "0904000555",
+      "email": null,
+      "gender": "FEMALE",
+      "note": "Tam ngung",
+      "tags": ["THANH_VIEN"],
+      "booking_count": 18,
+      "loyalty_points": 140,
+      "balance_due": 0,
+      "membership": {
+        "plan_name": "Goi 20 luot",
+        "plan_type": "VISIT_PACKAGE",
+        "status": "EXPIRED",
+        "remaining_hours": null,
+        "remaining_visits": 0,
+        "end_date": "2026-01-30"
+      },
+      "last_booking_at": "2026-01-28T17:00:00+07:00",
+      "status": "INACTIVE"
+    }
+  ]
+}

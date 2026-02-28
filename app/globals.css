@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --bg-main: #161616;
+  --bg-second: #0a0a0a;
+  --surface-1: #22C55E;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-main);
+  color: #e2e8f0;
+}
+
+@theme {
+  --color-main: var(--bg-main);
+  --color-second: var(--bg-second);
+  --color-surface: var(--surface-1);
+}
+
+@layer components {
+  .box-card {
+    @apply rounded-2xl border border-white/10 bg-[#111111] p-4 md:p-5;
+  }
+
+  .border-card {
+    @apply border-b border-b-gray-600/30;
+  }
+
+  .box-card-title {
+    @apply text-[15px] font-semibold text-white;
+  }
+
+  .box-card-subtitle {
+    @apply text-sm text-white/55;
+  }
+
+  .status-dot {
+    @apply inline-block h-2.5 w-2.5 rounded-full;
+  }
+}

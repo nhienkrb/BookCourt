@@ -1,0 +1,75 @@
+{
+  "branch": {
+    "id": 1,
+    "name": "Courtify Phu Nhuan"
+  },
+  "products": [
+    {
+      "id": 1,
+      "branch_id": 1,
+      "sku": "CB-001",
+      "name": "Qua cau Yonex AS30",
+      "type": "CONSUMABLE",
+      "unit": "ong",
+      "price": 420000,
+      "status": "ACTIVE",
+      "stock_qty": 18
+    },
+    {
+      "id": 2,
+      "branch_id": 1,
+      "sku": "WATER-500",
+      "name": "Nuoc suoi 500ml",
+      "type": "CONSUMABLE",
+      "unit": "chai",
+      "price": 10000,
+      "status": "ACTIVE",
+      "stock_qty": 130
+    },
+    {
+      "id": 3,
+      "branch_id": 1,
+      "sku": "RACKET-R01",
+      "name": "Vot cho thue R01",
+      "type": "RENTAL",
+      "unit": "cay",
+      "price": 30000,
+      "status": "ACTIVE",
+      "stock_qty": 24
+    },
+    {
+      "id": 4,
+      "branch_id": 1,
+      "sku": "STRING-SVC",
+      "name": "Dich vu dan vot",
+      "type": "SERVICE",
+      "unit": "lan",
+      "price": 120000,
+      "status": "INACTIVE",
+      "stock_qty": 0
+    }
+  ],
+  "booking_items_today": [
+    {
+      "booking_id": 5006,
+      "product_name": "Nuoc suoi 500ml",
+      "quantity": 3,
+      "unit_price": 10000,
+      "amount": 30000
+    },
+    {
+      "booking_id": 5004,
+      "product_name": "Vot cho thue R01",
+      "quantity": 1,
+      "unit_price": 30000,
+      "amount": 30000
+    },
+    {
+      "booking_id": 5004,
+      "product_name": "Nuoc suoi 500ml",
+      "quantity": 2,
+      "unit_price": 10000,
+      "amount": 20000
+    }
+  ]
+}

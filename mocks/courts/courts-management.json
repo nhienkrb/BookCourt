@@ -1,0 +1,96 @@
+{
+  "branch": {
+    "id": 1,
+    "name": "Courtify Phu Nhuan",
+    "address": "12 Nguyen Van Troi, Phu Nhuan, HCM",
+    "phone": "02839998888"
+  },
+  "courts": [
+    {
+      "id": 101,
+      "branch_id": 1,
+      "code": "A1",
+      "name": "San A1",
+      "surface_type": "THAM PVC",
+      "status": "ACTIVE",
+      "today_bookings": 6,
+      "today_revenue": 1260000
+    },
+    {
+      "id": 102,
+      "branch_id": 1,
+      "code": "A2",
+      "name": "San A2",
+      "surface_type": "THAM PVC",
+      "status": "ACTIVE",
+      "today_bookings": 8,
+      "today_revenue": 1640000
+    },
+    {
+      "id": 103,
+      "branch_id": 1,
+      "code": "B1",
+      "name": "San B1",
+      "surface_type": "THAM SYNTHETIC",
+      "status": "MAINTENANCE",
+      "today_bookings": 0,
+      "today_revenue": 0
+    },
+    {
+      "id": 104,
+      "branch_id": 1,
+      "code": "VIP",
+      "name": "San VIP",
+      "surface_type": "THAM CAO CAP",
+      "status": "ACTIVE",
+      "today_bookings": 5,
+      "today_revenue": 2100000
+    }
+  ],
+  "price_rules": [
+    {
+      "id": 1,
+      "branch_id": 1,
+      "court_id": null,
+      "day_type": "WEEKDAY",
+      "start_time": "06:00:00",
+      "end_time": "17:00:00",
+      "price_per_hour": 140000,
+      "priority": 100,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 2,
+      "branch_id": 1,
+      "court_id": null,
+      "day_type": "WEEKDAY",
+      "start_time": "17:00:00",
+      "end_time": "22:00:00",
+      "price_per_hour": 220000,
+      "priority": 90,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 3,
+      "branch_id": 1,
+      "court_id": null,
+      "day_type": "WEEKEND",
+      "start_time": "06:00:00",
+      "end_time": "22:00:00",
+      "price_per_hour": 240000,
+      "priority": 80,
+      "status": "ACTIVE"
+    },
+    {
+      "id": 4,
+      "branch_id": 1,
+      "court_id": 104,
+      "day_type": "ALL",
+      "start_time": "06:00:00",
+      "end_time": "22:00:00",
+      "price_per_hour": 300000,
+      "priority": 10,
+      "status": "ACTIVE"
+    }
+  ]
+}

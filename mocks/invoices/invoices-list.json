@@ -1,0 +1,82 @@
+{
+  "branch": {
+    "id": 1,
+    "name": "Courtify Phu Nhuan"
+  },
+  "invoices": [
+    {
+      "booking_id": 5006,
+      "customer_name": "Le Minh Duc",
+      "customer_phone": "0901000005",
+      "court_name": "San B1",
+      "start_at": "2026-02-06T17:00:00+07:00",
+      "end_at": "2026-02-06T18:30:00+07:00",
+      "status": "CHECKED_IN",
+      "price_court": 360000,
+      "discount_amount": 0,
+      "items_total": 70000,
+      "grand_total": 430000,
+      "paid_total": 200000,
+      "debt": 230000,
+      "payment_status": "PARTIAL",
+      "payments": [
+        {
+          "id": 9001,
+          "paid_at": "2026-02-06T16:30:00+07:00",
+          "method": "BANK_TRANSFER",
+          "amount": 200000,
+          "note": "Coc"
+        }
+      ]
+    },
+    {
+      "booking_id": 5004,
+      "customer_name": "Dang Van Khoa",
+      "customer_phone": "0901000004",
+      "court_name": "San A2",
+      "start_at": "2026-02-06T07:30:00+07:00",
+      "end_at": "2026-02-06T09:00:00+07:00",
+      "status": "COMPLETED",
+      "price_court": 260000,
+      "discount_amount": 20000,
+      "items_total": 35000,
+      "grand_total": 275000,
+      "paid_total": 275000,
+      "debt": 0,
+      "payment_status": "PAID",
+      "payments": [
+        {
+          "id": 9002,
+          "paid_at": "2026-02-06T07:20:00+07:00",
+          "method": "CASH",
+          "amount": 100000,
+          "note": "Coc"
+        },
+        {
+          "id": 9003,
+          "paid_at": "2026-02-06T09:05:00+07:00",
+          "method": "EWALLET",
+          "amount": 175000,
+          "note": "Thanh toan con lai"
+        }
+      ]
+    },
+    {
+      "booking_id": 5003,
+      "customer_name": "Truong Van Phong",
+      "customer_phone": "0901000003",
+      "court_name": "San VIP",
+      "start_at": "2026-02-06T06:00:00+07:00",
+      "end_at": "2026-02-06T07:30:00+07:00",
+      "status": "NO_SHOW",
+      "price_court": 300000,
+      "discount_amount": 0,
+      "items_total": 0,
+      "grand_total": 300000,
+      "paid_total": 0,
+      "debt": 300000,
+      "payment_status": "UNPAID",
+      "payments": []
+    }
+  ]
+}

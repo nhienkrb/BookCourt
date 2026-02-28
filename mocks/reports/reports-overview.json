@@ -1,0 +1,28 @@
+{
+  "period": {
+    "from": "2026-02-01",
+    "to": "2026-02-28"
+  },
+  "kpis": {
+    "total_bookings": 385,
+    "completed_bookings": 344,
+    "cancelled_bookings": 24,
+    "no_show_bookings": 17,
+    "occupancy_rate": 72.5,
+    "revenue_court": 92300000,
+    "revenue_services": 12600000,
+    "revenue_total": 104900000,
+    "outstanding_debt": 5450000
+  },
+  "bookings_by_daypart": [
+    { "label": "Sang (06-12)", "bookings": 112 },
+    { "label": "Trua (12-17)", "bookings": 88 },
+    { "label": "Toi (17-22)", "bookings": 185 }
+  ],
+  "top_courts": [
+    { "court_code": "VIP", "bookings": 121, "revenue": 35600000 },
+    { "court_code": "A2", "bookings": 96, "revenue": 24800000 },
+    { "court_code": "A1", "bookings": 91, "revenue": 23100000 },
+    { "court_code": "B1", "bookings": 77, "revenue": 16800000 }
+  ]
+}

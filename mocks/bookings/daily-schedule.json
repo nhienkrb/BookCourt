@@ -1,0 +1,111 @@
+{
+  "date": "2026-02-06",
+  "view_mode": "DAY",
+  "branch": {
+    "id": 1,
+    "name": "Courtify Phu Nhuan"
+  },
+  "courts": [
+    { "id": 101, "code": "A1", "name": "San A1", "status": "ACTIVE" },
+    { "id": 102, "code": "A2", "name": "San A2", "status": "ACTIVE" },
+    { "id": 103, "code": "B1", "name": "San B1", "status": "ACTIVE" },
+    { "id": 104, "code": "VIP", "name": "San VIP", "status": "ACTIVE" }
+  ],
+  "time_window": {
+    "start_hour": 6,
+    "end_hour": 22,
+    "slot_minutes": 30
+  },
+  "bookings": [
+    {
+      "id": 5001,
+      "court_id": 101,
+      "customer_name": "Dinh Thi Ngoc",
+      "customer_phone": "0901000001",
+      "start_at": "2026-02-06T06:00:00+07:00",
+      "end_at": "2026-02-06T07:30:00+07:00",
+      "status": "CONFIRMED",
+      "price_court": 220000,
+      "discount_amount": 0,
+      "note": null
+    },
+    {
+      "id": 5002,
+      "court_id": 102,
+      "customer_name": "Ngo Van Manh",
+      "customer_phone": "0901000002",
+      "start_at": "2026-02-06T06:00:00+07:00",
+      "end_at": "2026-02-06T07:30:00+07:00",
+      "status": "CONFIRMED",
+      "price_court": 220000,
+      "discount_amount": 0,
+      "note": null
+    },
+    {
+      "id": 5003,
+      "court_id": 104,
+      "customer_name": "Truong Van Phong",
+      "customer_phone": "0901000003",
+      "start_at": "2026-02-06T06:00:00+07:00",
+      "end_at": "2026-02-06T07:30:00+07:00",
+      "status": "CONFIRMED",
+      "price_court": 300000,
+      "discount_amount": 0,
+      "note": null
+    },
+    {
+      "id": 5004,
+      "court_id": 102,
+      "customer_name": "Dang Van Khoa",
+      "customer_phone": "0901000004",
+      "start_at": "2026-02-06T07:30:00+07:00",
+      "end_at": "2026-02-06T09:00:00+07:00",
+      "status": "CONFIRMED",
+      "price_court": 260000,
+      "discount_amount": 20000,
+      "note": "Co coc 100000"
+    },
+    {
+      "id": 5005,
+      "court_id": 102,
+      "customer_name": "Dang Van Khoa",
+      "customer_phone": "0901000004",
+      "start_at": "2026-02-06T09:00:00+07:00",
+      "end_at": "2026-02-06T10:30:00+07:00",
+      "status": "HOLD",
+      "price_court": 260000,
+      "discount_amount": 0,
+      "note": "Giu cho 15 phut"
+    },
+    {
+      "id": 5006,
+      "court_id": 103,
+      "customer_name": "Le Minh Duc",
+      "customer_phone": "0901000005",
+      "start_at": "2026-02-06T17:00:00+07:00",
+      "end_at": "2026-02-06T18:30:00+07:00",
+      "status": "CHECKED_IN",
+      "price_court": 360000,
+      "discount_amount": 0,
+      "note": null
+    },
+    {
+      "id": 5007,
+      "court_id": 101,
+      "customer_name": "Pham Gia Bao",
+      "customer_phone": "0901000006",
+      "start_at": "2026-02-06T19:00:00+07:00",
+      "end_at": "2026-02-06T20:30:00+07:00",
+      "status": "NO_SHOW",
+      "price_court": 360000,
+      "discount_amount": 0,
+      "note": "Khong den"
+    }
+  ],
+  "summary_today": {
+    "total_bookings": 7,
+    "playing_now": 1,
+    "upcoming": 2,
+    "cancelled_or_no_show": 1
+  }
+}
